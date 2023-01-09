@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     margin: 0;
     display: flex;
@@ -45,8 +44,8 @@ input:focus{
     0 15px 40px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
      display: flex;
-    padding: 3rem;
-    max-width: 800px;
+    padding: 1rem;
+    width: 100%;
 }
 
 .avatar {
@@ -58,7 +57,7 @@ input:focus{
 
 .user-info {
     color: #eee;
-    margin-left: 2rem;
+    padding: 1rem;
 }
 
 .user-info h2 {
@@ -69,8 +68,9 @@ input:focus{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0;
-    max-width: 400px;
+    padding: 0.6rem;
+    width:100%;
+    max-width: 100%;
 }
 
 .user-info ul li {
